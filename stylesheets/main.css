@@ -1,9 +1,27 @@
 nav .brand-logo {
    color: #fbc02d;
    padding-left: 10px;
-   font-weight: bold;
+   font-size: 1.7rem;
+   font-family: 'Crimson Text', serif;
+   margin-right: 10px;
 }
 
 nav ul a {
   color: #212121;
 }
+
+nav {
+  background: #212121;
+  min-width: 500px;
+}
+
+
+
+/*@media (min-width: 992px) {
+  nav .nav-wrapper {
+    min-width: 1050px;
+  }
+  nav .container {
+    align-items: center;
+  }
+}*/
