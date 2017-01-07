@@ -1,9 +1,43 @@
+body {
+  display: flex;
+  min-height: 110vh;
+  flex-direction: column;
+}
+
+main {
+     flex: 1 0 auto;
+}
+
 nav .brand-logo {
    color: #fbc02d;
    padding-left: 10px;
    font-size: 1.7rem;
    font-family: 'Crimson Text', serif;
    margin-right: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 
 nav ul a {
@@ -15,13 +49,7 @@ nav {
   min-width: 500px;
 }
 
-
-
-/*@media (min-width: 992px) {
-  nav .nav-wrapper {
-    min-width: 1050px;
-  }
-  nav .container {
-    align-items: center;
-  }
-}*/
+.footer-container {
+  vertical-align: middle;
+  text-align: center;
+}
