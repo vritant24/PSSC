@@ -6,6 +6,18 @@ body {
 
 main {
      flex: 1 0 auto;
+     margin: 0 auto;
+     position: relative;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background: url('../canvas-dark.png') no-repeat center center;
+     background-size:cover;
+}
+
+#blah {
+  margin-top: 0;
 }
 
 nav .brand-logo {
@@ -16,6 +28,18 @@ nav .brand-logo {
    margin-right: 10px;
 }
 
+#masthead {
+  position: relative;
+  height: inherit;
+  top: 0;
+  left: 0;
+}
+#masthead-logo {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -24,7 +48,7 @@ nav .brand-logo {
   padding-bottom: 10px;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .container {
     width: 750px;
   }
@@ -38,7 +62,7 @@ nav .brand-logo {
   .container {
     width: 1170px;
   }
-}
+}*/
 
 nav ul a {
   color: #212121;
@@ -52,4 +76,9 @@ nav {
 .footer-container {
   vertical-align: middle;
   text-align: center;
+  padding-bottom: 5px;
+}
+
+.side-nav a {
+  color: white;
 }
