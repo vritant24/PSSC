@@ -1,20 +1,31 @@
+html {
+    background: url('../canvas-dark.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
 body {
   display: flex;
+  min-width: 100%;
   min-height: 110vh;
   flex-direction: column;
+  overflow: scroll;
 }
 
 main {
      flex: 1 0 auto;
      margin: 0 auto;
-     position: relative;
      top: 0;
      left: 0;
-     height: 100%;
-     width: 100%;
-     background: url('../canvas-dark.png') no-repeat center center;
-     background-size:cover;
-     background-attachment: fixed;
+     width: 100vw;
+     height: inherit;
+     /*background: url('../canvas-dark.png') no-repeat center center;
+     background-size: cover;
+     -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+     background-attachment: fixed;*/
 }
 
 #blah {
@@ -24,9 +35,7 @@ main {
 nav .brand-logo {
    color: #fbc02d;
    padding-left: 10px;
-   font-size: 1.7rem;
-   font-family: 'Crimson Text', serif;
-   margin-right: 10px;
+   font-size: 1.4rem;
 }
 
 #masthead {
@@ -49,29 +58,12 @@ nav .brand-logo {
   padding-bottom: 10px;
 }
 
-/*@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}*/
-
 nav ul a {
   color: #212121;
 }
 
 nav {
   background: #212121;
-  min-width: 500px;
 }
 
 .footer-container {
@@ -90,12 +82,36 @@ nav {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  width: inherit;
 }
 
 #masthead {
-  margin: 0;
+  font-size: 30vh;
   position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
+  /*text-shadow: 0 0 45px black;*/
+  opacity: 0.95;
+  color: #212121;
+}
+
+nav .brand-logo {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 100px) {
+  #masthead {
+    font-size: 10vh;
+  }
+}
+
+@media (min-width: 500px) {
+  #masthead {
+    font-size: 30vh;
+  }
+  nav .brand-logo {
+    font-size: 1.4rem;
+  }
 }
