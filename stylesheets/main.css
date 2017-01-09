@@ -10,7 +10,6 @@ body {
   min-width: 100%;
   min-height: 110vh;
   flex-direction: column;
-  overflow: scroll;
 }
 
 main {
@@ -18,7 +17,7 @@ main {
      margin: 0 auto;
      top: 0;
      left: 0;
-     width: 100vw;
+     width: 100%;
      height: inherit;
      /*background: url('../canvas-dark.png') no-repeat center center;
      background-size: cover;
@@ -88,14 +87,13 @@ nav {
 
 #masthead {
   font-size: 30vh;
-  position: absolute;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /*text-shadow: 0 0 45px black;*/
-  opacity: 0.95;
-  color: #212121;
+  opacity: 0.65;
+  color: white;
 }
 
 nav .brand-logo {
@@ -115,4 +113,8 @@ nav .brand-logo {
   nav .brand-logo {
     font-size: 1.4rem;
   }
+}
+
+#about-title{
+  /*color: #fbc02d;*/
 }
