@@ -1,24 +1,29 @@
 html {
-    background: url('../canvas-dark.png') no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
     height: 100%;
+    /*background: url('../canvas-dark.png') no-repeat center center fixed;*/
+    /*background-size: cover;
+    background-attachment: fixed;*/
+
+    background: #212121;
 }
 
 body {
   display: flex;
+  flex-direction: column;
+
   min-width: 100%;
   min-height: 110vh;
-  flex-direction: column;
 }
 
 main {
-     flex: 1 0 auto;
-     margin: 0 auto;
      top: 0;
      left: 0;
+
      width: 100%;
      height: inherit;
+     margin: 0 auto;
+
+     flex: 1 0 auto;
      /*background: url('../canvas-dark.png') no-repeat center center;
      background-size: cover;
      -webkit-background-size: cover;
@@ -31,45 +36,38 @@ main {
   margin-top: 0;
 }
 
-nav .brand-logo {
-   color: #fbc02d;
-   padding-left: 10px;
-   font-size: 1.4rem;
-}
-
-#masthead {
-  position: relative;
-  height: inherit;
-  top: 0;
-  left: 0;
-}
-#masthead-logo {
-  position: absolute;
-  top: 30px;
-  left: 70px;
-}
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 10px;
-}
-
-nav ul a {
-  color: #212121;
-}
-
 nav {
   background: #212121;
   box-shadow: none;
 }
 
+nav .brand-logo {
+   padding-left: 10px;
+
+   color: #fbc02d;
+
+   font-size: 1.4rem;
+}
+
+/*.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}*/
+
+nav ul a {
+  color: #212121;
+}
+
+
+
 .footer-container {
-  vertical-align: middle;
-  text-align: center;
   padding-bottom: 5px;
+
+  text-align: center;
+  vertical-align: middle;
 }
 
 .side-nav a {
@@ -77,44 +75,44 @@ nav {
 }
 
 .display-card {
-  background: white;
-  border-radius: 5px;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
   width: inherit;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  background: white;
 }
 
 #masthead {
-  font-size: 30vh;
   position: fixed;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   /*text-shadow: 0 0 45px black;*/
+
   opacity: 0.65;
   color: white;
+
+  font-size: 30vh;
 }
 
 nav .brand-logo {
   font-size: 1.1rem;
 }
 
-@media (min-width: 100px) {
-  #masthead {
-    font-size: 10vh;
-  }
-}
-
 @media (min-width: 500px) {
-  #masthead {
-    font-size: 30vh;
-  }
   nav .brand-logo {
     font-size: 1.4rem;
   }
 }
 
-#about-title{
-  /*color: #fbc02d;*/
+#contact-container {
+  padding: 20px;
+}
+
+.section {
+  border-radius: 10px;
 }
