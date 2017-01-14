@@ -37,8 +37,14 @@ main {
 }
 
 nav {
-  background: #212121;
+  z-index: 3;
+  position: fixed;
+  background: transparent;
   box-shadow: none;
+}
+
+.nav-wrapper {
+  background: rgba(33, 33, 33, 0.5);
 }
 
 nav .brand-logo {
@@ -70,9 +76,6 @@ nav ul a {
   vertical-align: middle;
 }
 
-.side-nav a {
-  color: white;
-}
 
 .display-card {
   width: inherit;
