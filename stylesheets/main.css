@@ -1,9 +1,5 @@
 html {
     height: 100%;
-    /*background: url('../canvas-dark.png') no-repeat center center fixed;*/
-    /*background-size: cover;
-    background-attachment: fixed;*/
-
     background: #212121;
 }
 
@@ -16,6 +12,7 @@ body {
 }
 
 main {
+    padding-top: 64px;
      top: 0;
      left: 0;
 
@@ -24,12 +21,6 @@ main {
      margin: 0 auto;
 
      flex: 1 0 auto;
-     /*background: url('../canvas-dark.png') no-repeat center center;
-     background-size: cover;
-     -webkit-background-size: cover;
-	   -moz-background-size: cover;
-	   -o-background-size: cover;
-     background-attachment: fixed;*/
 }
 
 #blah {
@@ -89,16 +80,9 @@ nav ul a {
 }
 
 #masthead {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-  /*text-shadow: 0 0 45px black;*/
-
   opacity: 0.65;
   color: white;
-
+  z-index: 5;
   font-size: 30vh;
 }
 
@@ -117,5 +101,21 @@ nav .brand-logo {
 }
 
 .section {
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 15px;
+}
+
+footer .container {
+  padding: 0;
+}
+
+#index-main {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
