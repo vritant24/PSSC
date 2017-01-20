@@ -1,5 +1,5 @@
 <?php include("partials/header.html") ?>
-<main class="valign-wrapper hide-on-med-and-up">
+<main class="valign-wrapper hide-on-med-and-up grey darken-4">
     <div class="row">
       <div class="col s12">
         <div class="card grey lighten-2">
@@ -38,7 +38,7 @@
   <div class="section white">
     <div class="row container">
       <h2 class="header center-align">About</h2>
-      <p class="grey-text text-darken-3 lighten-3 container flow-text">
+      <p id="try" class="grey-text text-darken-3 lighten-3 container flow-text">
         Established in 2005, the mission of Purdue Science Student Council is to provide academically oriented services
         to the students of the College of Science and to promote professional growth amongst Science students.
         <br>

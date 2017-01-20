@@ -1,9 +1,16 @@
 <?php include("partials/header.html") ?>
 <main class="valign-wrapper">
   <div class="container">
-  <div id="contact-container" class="section white">
+  <div id="contact-container" class="section">
     <!-- <div class="container"> -->
-    <h2 class="header black-text">Contact Us</h2>
+    <!-- <h2 class="header black-text">Contact Us</h2> -->
+    <div class="center-align">
+      <h3>Feel that tingling in your fingertips?</h3>
+      <h4>That's the magnetic urge to <span class="red-text">Contact Us</span></h4>
+      <br>
+    </div>
+    <p class="grey-text">Just fill this form and we'll get back to you soon</p>
+      <br>
       <div class="row">
         <form class="col s12" method="POST" action="contact_submit.php">
           <div class="row">
