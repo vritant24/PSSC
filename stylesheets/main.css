@@ -124,3 +124,16 @@ footer .container {
 #try {
   font-size: 3vh;
 }
+
+#member-list .responsive-img {
+  max-width: 130px;
+  max-height: 130px;
+}
+
+#council-blurb .flow-text {
+  font-size: 1.3rem;
+}
+
+.collapsible-header {
+  display: flex;
+}
