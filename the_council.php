@@ -10,92 +10,24 @@
   <ul class="collapsible popout" data-collapsible="accordion">
     <li>
       <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h7>Executive Board</h7></div>
-      <div class="collapsible-body">
-        <div id="council-blurb" class="row center-align">
-          <div class="col s12 flow-text">
-            <div class="container">
-            <p>
-              On the community outreach committee, we strive to engage and instill a love of science in the greater Lafayette community. See us in action every year at SpringFest and our experiment days at the local library.
-            </p>
-          </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-          <div class="col m4">
-              <div class="row">
-                <div id="member-list" class="col s12 center-align">
-                  <img src="members/xcomm-pics/andrew-santos.JPG" alt="" class="circle responsive-img">
-                </div>
-                <div class="col s12 center-align">
-                  Andrew Santos
-                </div>
-              </div>
-          </div>
-        </div>
+      <div class="collapsible-body center-align brown lighten-5">
+        <?php include("members/xcomm.html") ?>
       </div>
     </li>
     <li>
-      <div class="collapsible-header active brown white-text valign-wrapper"><h7>Campus Outreach</h7></div>
+      <div class="collapsible-header brown white-text valign-wrapper"><h7>Campus Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h7>Community Outreach</h7></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Community Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown white-text valign-wrapper"><h7>Publicity and Fundraising</h7></div>
+      <div class="collapsible-header brown white-text valign-wrapper"><h7>Publicity and Fundraising</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h7>Network and Career Outreach</h7></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Network and Career Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
   </ul>
@@ -103,27 +35,29 @@
   </div>
 
 
-  <div class="hide-on-med-and-up">
+  <div class="mobile hide-on-med-and-up">
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h5>Executive Board</h5></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Executive Board</h7></div>
+      <div class="collapsible-body">
       <?php include("members/xcomm.html") ?>
+      </div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h5>Campus Outreach</h5></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Campus Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h5>Community Outreach</h5></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Community Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h5>Publicity and Fundraising</h5></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Publicity and Fundraising</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
     <li>
-      <div class="collapsible-header active brown darken-1 white-text valign-wrapper"><h5>Network and Career Outreach</h5></div>
+      <div class="collapsible-header brown darken-1 white-text valign-wrapper"><h7>Network and Career Outreach</h7></div>
       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
     </li>
   </ul>
