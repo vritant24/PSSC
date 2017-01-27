@@ -1,0 +1,50 @@
+html {
+  /*display: table;*/
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  display: table-cell;
+  /*font: 300 20px/1.4 Roboto, 'Open Sans', Helvetica, Arial, sans-serif;*/
+  color: #fff;
+  background: #4D4646 50% 50% no-repeat;
+  background-size: cover;
+}
+
+body article {
+  width: 100vw;
+  height: 90vh;
+}
+.background-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+noindex:-o-prefocus, .background-container {
+  display: none;
+} /* Hide background in old Opera because of lags */
+
+.content {
+  position: relative; padding: 40px 0;
+}
+
+.title {
+  margin: auto;
+}
+
+h1 {
+  text-shadow: 0 1px 22px rgba(0, 0, 0, 0.66);
+  font-size: 25vw;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

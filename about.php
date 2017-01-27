@@ -1,4 +1,4 @@
-<?php include("partials/header.html") ?>
+<?php include("partials/header.php") ?>
 <main class="valign-wrapper hide-on-med-and-up grey darken-4">
     <div class="row">
       <div class="col s12">

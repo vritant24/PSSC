@@ -1,4 +1,4 @@
-<?php include("partials/header.html") ?>
+<?php include("partials/header.php") ?>
 <main class="valign-wrapper">
   <div class="container">
   <div id="contact-container" class="section">
@@ -9,9 +9,11 @@
       <h4>That's the magnetic urge to <span class="red-text">Contact Us</span></h4>
       <br>
     </div>
-    <p class="grey-text">Just fill this form and we'll get back to you soon</p>
-      <br>
       <div class="row">
+        <!-- <div class="col s12">
+          <p class="grey-text">Just fill this form and we'll get back to you soon</p>
+          <br>
+        </div> -->
         <form class="col s12" method="POST" action="contact_submit.php">
           <div class="row">
             <div class="input-field col s12 m6">
