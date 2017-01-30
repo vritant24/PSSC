@@ -1,4 +1,4 @@
-<?php include("partials/header.html") ?>
+<?php include("partials/header.php") ?>
 <main class="valign-wrapper">
   <div class = "container">
 <div class="section white">

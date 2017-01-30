@@ -1,6 +1,11 @@
 <?php include("partials/header.php") ?>
-<main class="valign-wrapper">
+<main class="">
   <div class="container">
+    <div class="center-align">
+      <h1>Contact Us</h1>
+      <br>
+      <br>
+    </div>
   <div id="contact-container" class="section">
     <!-- <div class="container"> -->
     <!-- <h2 class="header black-text">Contact Us</h2> -->

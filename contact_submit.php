@@ -3,7 +3,7 @@
   $purdueEmail = $_REQUEST['email'];
   $submittedInfo = $_REQUEST['message'];
 
-  $config = parse_ini_file('./config.ini', true);
+  $config = parse_ini_file('../config.ini', true);
   $accounts = $config['accounts'];
 
   // Send email to webmaster.
