@@ -15,7 +15,9 @@ body {
 
 body article {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
+  padding-top: 64px;
+  display: block;
 }
 .background-container {
   position: fixed;

@@ -25,6 +25,14 @@ main {
 
 }
 
+#main-img {
+  background: url(../pssc-logo-idea-small.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #blah {
   margin-top: 0;
 }
@@ -92,12 +100,6 @@ nav .brand-logo {
   font-size: 1.1rem;
 }
 
-@media (min-width: 500px) {
-  nav .brand-logo {
-    font-size: 1.4rem;
-  }
-}
-
 #contact-container {
   padding: 20px;
 }
@@ -154,4 +156,17 @@ footer .container {
 
 footer.page-footer .footer-copyright {
   line-height: 1.5;
+}
+
+@media (min-width: 900px) {
+  nav .brand-logo {
+    font-size: 1.4rem;
+  }
+  #main-img {
+    background: url(../pssc-logo-idea.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }

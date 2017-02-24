@@ -23,27 +23,27 @@ $(function() {
             MESH: {
 				ambient: '#555555', // Default
                 diffuse: '#FFFFFF', // Default
-                width: 2, // Triangle Width
-                height: 1.3, // Triangle Height
+                width: 1, // Triangle Width
+                height: 0.7, // Triangle Height
                 depth: 10, // Transparency of the triangles
-                segments: 16, // Number of triangles to display in 1 row
-                slices: 8, // Number of triangles to display in 1 column
-                xRange: 0.6, // Wideness of the triangles in X Position
+                segments: 20, // Number of triangles to display in 1 row
+                slices: 15, // Number of triangles to display in 1 column
+                xRange: 0.2, // Wideness of the triangles in X Position
                 yRange: 0.1, // Wideness of the triangles in Y Position
-                zRange: 1.0, // Wideness of the triangles in Z Position
+                zRange: 1.5, // Wideness of the triangles in Z Position
                 speed: 0.001 // Speed of the moving traingles
             },
 
             LIGHT: {
 				autopilot: true, // Set this to true if you want the light to follow your mouse cursor
-				ambient: '#895321',
-                diffuse: '#4F460B',
-				count: 2, // Contrast
-                zOffset: 200,
+				ambient: '#fbc02d',
+                diffuse: '#b8901a',
+				count: 0.6, // Contrast
+                zOffset: 600,
 
 				xyScalar: 1,
                 speed: 0.001,
-                gravity: 1200,
+                gravity: 1300,
                 dampening: 0.15,
                 minLimit: 8,
                 maxLimit: null,
